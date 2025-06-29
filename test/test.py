@@ -6,7 +6,7 @@ class TestApp(unittest.TestCase):
         tester = app.test_client()
         response = tester.get('/')  # Update path to '/'
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.data, b"Welcome to Fortune Cloud!")  # Correct the expected output
+        self.assertEqual(response.data, b"Kal Sarava Chintani")  # Correct the expected output
 
 if __name__ == "__main__":
     unittest.main()
